@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caren's Love Diary 💕</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Parisienne&display=swap" rel="stylesheet">
+</head>
+<body>
+  <video autoplay muted loop class="bg-video" id="bgVideo"></video>
+  <audio autoplay loop id="pageAudio"></audio>
+
+  <div class="container" id="pageContent"></div>
+
+  <div class="nav-buttons">
+    <button onclick="prevPage()" id="prevBtn">← Previous</button>
+    <button onclick="nextPage()" id="nextBtn">Next →</button>
+  </div>
+
+  <!-- Romantic Pop-up Animations -->
+  <div id="photoPopup" class="popup hidden">
+    <img src="assets/caren/caren.jpg" alt="My Caren"/>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
